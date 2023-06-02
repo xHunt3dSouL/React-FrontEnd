@@ -1,0 +1,39 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 60px;
+}
+
+.counter-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.counter-btn {
+  border: none;
+  background-color: brown;
+  padding: 10px 40px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+  border-radius: 15px;
+}
+
+.counter-btn :hover {
+  /* opacity: 0.9; */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.272);
+}
+
+.count {
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
