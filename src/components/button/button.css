@@ -1,0 +1,38 @@
+.btn {
+  border: none;
+  background-color: gray;
+  padding: 10px 40px;
+  font-size: 30px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+}
+
+.btn:hover {
+  /* opacity: 0.9; */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.271);
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.text {
+  background-color: transparent;
+  color: black;
+}
+
+.outlined {
+  background-color: transparent;
+  border: 1px solid black;
+  color: black;
+}
